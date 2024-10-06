@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>TO DO LIST</title>
+</head>
+<body class="lightmode">
+        <div class="container">
+            <label for="input">Write your task <button id="toggle-mode" onclick=modeToggle()><span class="material-symbols-outlined">
+                light_mode
+                </span></button></label>
+            <div class="input-container">
+                <textarea name="" id="write-input" placeholder="Enter your Task here"></textarea>
+                <button id="add" type="submit" onclick="createToDo()">ADD</button>
+            </div>
+        </div>
+
+        <div class="">
+            <ul class="to-do-containers">
+                
+            </ul>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+</body>
+</html>
